@@ -18,7 +18,7 @@ public class Personaje {
 
     @ManyToOne
     @JoinColumn(name = "usuario_id")
-    private Usuario usuario;
+    private Long usuarioId;
 
     public Personaje(String nombre, String tipo, String descripcion, int atk, int def, int sp) {
         this.nombre = nombre;

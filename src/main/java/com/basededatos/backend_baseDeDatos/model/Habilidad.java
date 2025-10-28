@@ -15,6 +15,10 @@ public class Habilidad {
     private int incrementoDef;
     private int incrementoSp;
 
+    @ManyToOne
+    @JoinColumn(name = "personaje_id")
+    private Long PersonajeId;
+
     public Habilidad(String nombre, String descripcion, int incrementoAtk, int incrementoDef, int incrementoSp) {
         this.nombre = nombre;
         this.descripcion = descripcion;
