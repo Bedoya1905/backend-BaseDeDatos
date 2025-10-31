@@ -1,6 +1,9 @@
 package com.basededatos.backend_baseDeDatos.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import com.basededatos.backend_baseDeDatos.model.Usuario;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
 
-public interface UsuarioRepository extends JpaRepository<Usuario, Long>{ }
+public interface UsuarioRepository extends JpaRepository<Usuario, Long>{ 
+    
+}

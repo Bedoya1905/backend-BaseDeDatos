@@ -1,0 +1,9 @@
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/BackendBaseDeDatosApplication.java
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/controller/PersonajeController.java
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/controller/UsuarioController.java
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/model/Habilidad.java
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/model/Personaje.java
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/model/Usuario.java
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/repository/HabilidadRepository.java
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/repository/PersonajeRepository.java
+/Users/bedoya/Documents/SANTI/universidad/semestre_3/dessarrollo-web/versionesBackEnd/backend-BaseDeDatos-main/backend-BaseDeDatos-main/src/main/java/com/basededatos/backend_baseDeDatos/repository/UsuarioRepository.java

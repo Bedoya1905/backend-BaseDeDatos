@@ -9,8 +9,12 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "password")
     private String password;
+
+    public Usuario() {}
 
     public Usuario(String name, String password) {
         this.name = name;

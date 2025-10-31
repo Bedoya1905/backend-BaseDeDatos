@@ -3,23 +3,41 @@ package com.basededatos.backend_baseDeDatos.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "personajes")
+@Table(name = "habilidades")
 public class Habilidad {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Column(name = "nombre")
     private String nombre;
+    @Column(name = "descripcion")
     private String descripcion;
-    private int incrementoAtk;
-    private int incrementoDef;
-    private int incrementoSp;
+    @Column(name = "incremento_atk")
+    private Integer incrementoAtk;
+    @Column(name = "incremento_def")
+    private Integer incrementoDef;
+    @Column(name = "incremento_sp")
+    private Integer incrementoSp;
 
     @ManyToOne
-    @JoinColumn(name = "personaje_id")
-    private Long PersonajeId;
+    @JoinColumn(name = "personaje")
+    private Personaje personaje;
 
-    public Habilidad(String nombre, String descripcion, int incrementoAtk, int incrementoDef, int incrementoSp) {
+    public Habilidad() {}
+
+    public Habilidad(String nombre, String descripcion, Integer incrementoAtk, Integer incrementoDef, Integer incrementoSp, Personaje personaje) {
+        this.nombre = nombre;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.incrementoAtk = incrementoAtk;
+        this.incrementoDef = incrementoDef;
+        this.incrementoSp = incrementoSp;
+        this.personaje = personaje;
+    }
+
+    public Habilidad(String nombre, String descripcion, Integer incrementoAtk, Integer incrementoDef, Integer incrementoSp) {
+        this.nombre = nombre;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.incrementoAtk = incrementoAtk;
@@ -33,6 +51,8 @@ public class Habilidad {
     public int getIncrementoAtk() { return incrementoAtk; }
     public int getIncrementoDef() { return incrementoDef; }
     public int getSp() { return incrementoSp; }
+    public Personaje getPersonaje() { return personaje; }
+    public void setPersonaje(Personaje personaje) {this.personaje = personaje;}
 
     @Override
     public String toString() {
