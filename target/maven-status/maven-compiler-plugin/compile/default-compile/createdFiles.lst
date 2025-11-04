@@ -1,0 +1,3 @@
+com/basededatos/backend_baseDeDatos/repository/RequestLogRepository.class
+com/basededatos/backend_baseDeDatos/RequestLogRepository/RequestLog.class
+com/basededatos/backend_baseDeDatos/middleware/LoggingFilter.class
